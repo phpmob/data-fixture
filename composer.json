@@ -1,0 +1,32 @@
+{
+  "name": "phpmob/data-fixture",
+  "type": "library",
+  "description": "Just abstraction data fixture.",
+  "keywords": ["data-fixture"],
+  "homepage": "http://github.com/phpmob/data-fixture",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Ishmael Doss",
+      "email": "nukboon@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.1",
+    "doctrine/common": "^2.4",
+    "sylius/resource": "^1.0",
+    "sylius/fixtures-bundle": "^1.2",
+    "symfony/config": "^3.2",
+    "symfony/options-resolver": "^3.2",
+    "symfony/property-access": "^3.2",
+    "webmozart/assert": "^1.3"
+  },
+  "require-dev": {
+  },
+  "autoload": {
+    "psr-0": {
+      "PhpMob\\DataFixture": ""
+    }
+  },
+  "target-dir": "PhpMob/DataFixture"
+}
